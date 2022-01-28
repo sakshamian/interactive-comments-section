@@ -151,13 +151,13 @@ body{
   cursor: pointer;
 }
 .reply-btn::before {
-  content: url("../images/icon-reply.svg");
+  content: url("./images/icon-reply.svg");
 }
 .delete-btn::before {
-  content: url("../images/icon-delete.svg");
+  content: url("./images/icon-delete.svg");
 }
 .edit-btn::before {
-  content: url("../images/icon-edit.svg");
+  content: url("./images/icon-edit.svg");
 }
 [data-action]::before{
   margin-inline-end: 0.5em;

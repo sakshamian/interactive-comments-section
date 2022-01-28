@@ -254,7 +254,7 @@ function getContentHTML(comment = {}, currentuser) {
       <div class="action-area">
       ${
        ifThisIsCurrentUser
-         ? `<div class ="delete-btn bold-txt red-clr-txt low-opacity-hover" tabindex="0" data-action="delete" data-fuck="delete">Delete</div>
+         ? `<div class ="delete-btn bold-txt red-clr-txt low-opacity-hover" tabindex="0" data-action="delete">Delete</div>
             <div class ="edit-btn bold-txt blue-clr-txt low-opacity-hover" tabindex="0" data-action="edit">Edit</div>`
          : `<div class="reply-btn bold-txt blue-clr-txt low-opacity-hover" tabindex="0" data-action="reply">Reply</div>`
      } 
